@@ -1,0 +1,5 @@
+venv/
+hand_tracking_project/
+*.parquet
+*.csv
+__pycache__/
