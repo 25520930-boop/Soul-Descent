@@ -1,19 +1,16 @@
-# 🎓 Student Review Analyzer
+# ⚔️ Soul Descent
 
-AI-powered tool to analyze student course reviews using Groq API + LLaMA 3.
+Dự án game Dungeon Crawler vọc vạch bằng **Python** & **Pygame**.
 
-## Features
-- Phân tích sentiment (tích cực / tiêu cực / trung lập)
-- Xác định điểm tốt và chưa tốt của môn học
-- Tóm tắt review trong 1 câu
+## 🚀 Tính năng
+- **Multiplayer LAN:** Kết nối bạn bè qua mạng nội bộ (Socket/Threading).
+- **3 Class nhân vật:** Warrior, Mage, Rogue với bộ Skill và Animation riêng.
+- **Hầm ngục ngẫu nhiên:** Bản đồ tự động tạo mới mỗi màn chơi.
+- **Hiệu ứng:** Ánh sáng thời gian thực (Dynamic Lighting) và hệ thống hạt (Particles).
 
-## Tech Stack
-- Python
-- Streamlit
-- Groq API (LLaMA 3.3 70B)
+## 🛠 Cài đặt & Chạy
+Yêu cầu máy cài sẵn Python. Chạy các lệnh sau trong Terminal:
 
-## How to run
-1. Clone repo
-2. Install dependencies: `pip install groq streamlit`
-3. Set API key: `export GROQ_API_KEY="your-key"`
-4. Run: `python3 -m streamlit run test.py`
+```bash
+pip install pygame numpy
+python main.py
